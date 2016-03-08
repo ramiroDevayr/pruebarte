@@ -1,0 +1,906 @@
+﻿Android application is debugging.
+02-03 11:00:54.293 D/dalvikvm(18934): Late-enabling CheckJNI
+02-03 11:00:54.373 D/HyLog   (18934): I : /data/font/config/dfactpre.dat, No such file or directory (2)
+02-03 11:00:54.423 D/dalvikvm(18934): Trying to load lib /data/app-lib/UnaPantalla.Droid-2/libmonodroid.so 0x42128d90
+02-03 11:00:54.423 D/dalvikvm(18934): Added shared lib /data/app-lib/UnaPantalla.Droid-2/libmonodroid.so 0x42128d90
+02-03 11:00:54.443 W/monodroid(18934): Using override path: /data/data/UnaPantalla.Droid/files/.__override__
+02-03 11:00:54.443 W/monodroid(18934): Using override path: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__
+02-03 11:00:54.443 W/monodroid(18934): Trying to load sgen from: /data/data/UnaPantalla.Droid/files/.__override__/libmonosgen-2.0.so
+02-03 11:00:54.443 W/monodroid(18934): Trying to load sgen from: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/libmonosgen-2.0.so
+02-03 11:00:54.443 W/monodroid(18934): Trying to load sgen from: /data/app-lib/UnaPantalla.Droid-2/libmonosgen-2.0.so
+02-03 11:00:54.453 W/monodroid(18934): Trying to load sgen from: /data/data/UnaPantalla.Droid/files/.__override__/links/libmonosgen-2.0.so
+02-03 11:00:54.473 W/monodroid-debug(18934): Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8833,server=y,embedding=1
+02-03 11:00:54.513 W/monodroid-debug(18934): Accepted stdout connection: 50
+02-03 11:00:55.313 D/Mono    (18934): Image addref mscorlib[0x60cc3f20] -> mscorlib.dll[0x60ccf948]: 1
+02-03 11:00:55.313 D/Mono    (18934): AOT module 'mscorlib.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-mscorlib.dll.so" not found
+02-03 11:00:55.313 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/mscorlib.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-mscorlib.dll.so" not found
+02-03 11:00:55.333 D/Mono    (18934): Unloading image data-0x65a0f008 [0x60cc7960].
+02-03 11:00:55.393 D/Mono    (18934): Assembly mscorlib[0x60cc3f20] added to domain RootDomain, ref_count=1
+02-03 11:00:55.473 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll'.
+02-03 11:00:55.473 D/Mono    (18934): Image addref UnaPantalla.Droid[0x65bcef48] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll[0x65bce420]: 2
+02-03 11:00:55.473 D/Mono    (18934): Assembly UnaPantalla.Droid[0x65bcef48] added to domain RootDomain, ref_count=1
+02-03 11:00:55.473 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-UnaPantalla.Droid.dll.so" not found
+02-03 11:00:55.473 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/UnaPantalla.Droid.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-UnaPantalla.Droid.dll.so" not found
+02-03 11:00:55.473 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll'.
+02-03 11:00:55.473 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll.config'.
+02-03 11:00:55.473 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/UnaPantalla.Droid/UnaPantalla.Droid.config'.
+02-03 11:00:55.473 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll'.
+02-03 11:00:55.483 D/Mono    (18934): Image addref BouncyCastle[0x65bd3008] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll[0x65bd1350]: 2
+02-03 11:00:55.483 D/Mono    (18934): Assembly BouncyCastle[0x65bd3008] added to domain RootDomain, ref_count=1
+02-03 11:00:55.483 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-BouncyCastle.dll.so" not found
+02-03 11:00:55.483 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/BouncyCastle.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-BouncyCastle.dll.so" not found
+02-03 11:00:55.493 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll'.
+02-03 11:00:55.493 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll.config'.
+02-03 11:00:55.493 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/BouncyCastle/BouncyCastle.config'.
+02-03 11:00:55.493 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll'.
+02-03 11:00:55.493 D/Mono    (18934): Image addref FormsViewGroup[0x65bd3eb0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll[0x65bd3200]: 2
+02-03 11:00:55.493 D/Mono    (18934): Assembly FormsViewGroup[0x65bd3eb0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.493 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-FormsViewGroup.dll.so" not found
+02-03 11:00:55.493 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-FormsViewGroup.dll.so" not found
+02-03 11:00:55.493 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll'.
+02-03 11:00:55.493 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll.config'.
+02-03 11:00:55.493 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/FormsViewGroup/FormsViewGroup.config'.
+02-03 11:00:55.493 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll'.
+02-03 11:00:55.503 D/Mono    (18934): Image addref MailKit[0x65bd8d70] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll[0x65bd8140]: 2
+02-03 11:00:55.503 D/Mono    (18934): Assembly MailKit[0x65bd8d70] added to domain RootDomain, ref_count=1
+02-03 11:00:55.503 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-MailKit.dll.so" not found
+02-03 11:00:55.503 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/MailKit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-MailKit.dll.so" not found
+02-03 11:00:55.503 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll'.
+02-03 11:00:55.503 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll.config'.
+02-03 11:00:55.503 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/MailKit/MailKit.config'.
+02-03 11:00:55.503 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll'.
+02-03 11:00:55.513 D/Mono    (18934): Image addref MimeKit[0x65bd9be8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll[0x65bd8f18]: 2
+02-03 11:00:55.513 D/Mono    (18934): Assembly MimeKit[0x65bd9be8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.523 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-MimeKit.dll.so" not found
+02-03 11:00:55.523 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/MimeKit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-MimeKit.dll.so" not found
+02-03 11:00:55.523 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll'.
+02-03 11:00:55.523 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll.config'.
+02-03 11:00:55.523 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/MimeKit/MimeKit.config'.
+02-03 11:00:55.523 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll'.
+02-03 11:00:55.523 D/Mono    (18934): Image addref UnaPantalla[0x65bdaaa0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll[0x65bd9e10]: 2
+02-03 11:00:55.523 D/Mono    (18934): Assembly UnaPantalla[0x65bdaaa0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.523 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-UnaPantalla.dll.so" not found
+02-03 11:00:55.523 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/UnaPantalla.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-UnaPantalla.dll.so" not found
+02-03 11:00:55.523 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll'.
+02-03 11:00:55.523 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll.config'.
+02-03 11:00:55.523 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/UnaPantalla/UnaPantalla.config'.
+02-03 11:00:55.523 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll'.
+02-03 11:00:55.573 D/Mono    (18934): Image addref Xamarin.Android.Support.v4[0x65bdeb08] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll[0x65bde008]: 2
+02-03 11:00:55.573 D/Mono    (18934): Assembly Xamarin.Android.Support.v4[0x65bdeb08] added to domain RootDomain, ref_count=1
+02-03 11:00:55.573 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Android.Support.v4.dll.so" not found
+02-03 11:00:55.573 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Android.Support.v4.dll.so" not found
+02-03 11:00:55.583 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll'.
+02-03 11:00:55.583 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll.config'.
+02-03 11:00:55.583 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.v4/Xamarin.Android.Support.v4.config'.
+02-03 11:00:55.583 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll'.
+02-03 11:00:55.603 D/Mono    (18934): Image addref Xamarin.Forms.Core[0x65bdf9c0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll[0x65bdecf0]: 2
+02-03 11:00:55.603 D/Mono    (18934): Assembly Xamarin.Forms.Core[0x65bdf9c0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.603 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Core.dll.so" not found
+02-03 11:00:55.603 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Core.dll.so" not found
+02-03 11:00:55.613 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll'.
+02-03 11:00:55.613 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll.config'.
+02-03 11:00:55.613 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Core/Xamarin.Forms.Core.config'.
+02-03 11:00:55.613 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+02-03 11:00:55.613 D/Mono    (18934): Image addref Xamarin.Forms.Platform.Android[0x65be08a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll[0x65bdfbe0]: 2
+02-03 11:00:55.613 D/Mono    (18934): Assembly Xamarin.Forms.Platform.Android[0x65be08a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.613 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+02-03 11:00:55.613 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+02-03 11:00:55.613 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+02-03 11:00:55.613 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll.config'.
+02-03 11:00:55.623 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Platform.Android/Xamarin.Forms.Platform.Android.config'.
+02-03 11:00:55.623 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll'.
+02-03 11:00:55.623 D/Mono    (18934): Image addref Xamarin.Forms.Xaml[0x65bef7a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll[0x65be0ab0]: 2
+02-03 11:00:55.623 D/Mono    (18934): Assembly Xamarin.Forms.Xaml[0x65bef7a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.623 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Xaml.dll.so" not found
+02-03 11:00:55.623 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Xamarin.Forms.Xaml.dll.so" not found
+02-03 11:00:55.623 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll'.
+02-03 11:00:55.623 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll.config'.
+02-03 11:00:55.623 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Xaml/Xamarin.Forms.Xaml.config'.
+02-03 11:00:55.623 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll'.
+02-03 11:00:55.623 D/Mono    (18934): Image addref System.Collections.Concurrent[0x65bf26a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll[0x65befa50]: 2
+02-03 11:00:55.623 D/Mono    (18934): Assembly System.Collections.Concurrent[0x65bf26a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.623 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Collections.Concurrent.dll.so" not found
+02-03 11:00:55.623 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Collections.Concurrent.dll.so" not found
+02-03 11:00:55.623 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll'.
+02-03 11:00:55.623 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll.config'.
+02-03 11:00:55.623 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Collections.Concurrent/System.Collections.Concurrent.config'.
+02-03 11:00:55.623 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll'.
+02-03 11:00:55.623 D/Mono    (18934): Image addref System.Collections[0x65bf5578] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll[0x65bf28d0]: 2
+02-03 11:00:55.623 D/Mono    (18934): Assembly System.Collections[0x65bf5578] added to domain RootDomain, ref_count=1
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Collections.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Collections.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Collections.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll.config'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Collections/System.Collections.config'.
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Image addref System.ComponentModel.Annotations[0x65bf84b0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll[0x65bf57f8]: 2
+02-03 11:00:55.633 D/Mono    (18934): Assembly System.ComponentModel.Annotations[0x65bf84b0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.Annotations.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.Annotations.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.Annotations.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll.config'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel.Annotations/System.ComponentModel.Annotations.config'.
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Image addref System.ComponentModel[0x65bfb380] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll[0x65bf8698]: 2
+02-03 11:00:55.633 D/Mono    (18934): Assembly System.ComponentModel[0x65bfb380] added to domain RootDomain, ref_count=1
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.dll.so" not found
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll.config'.
+02-03 11:00:55.633 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel/System.ComponentModel.config'.
+02-03 11:00:55.633 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll'.
+02-03 11:00:55.633 D/Mono    (18934): Image addref System.ComponentModel.EventBasedAsync[0x65bfe2d0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll[0x65bfb620]: 2
+02-03 11:00:55.633 D/Mono    (18934): Assembly System.ComponentModel.EventBasedAsync[0x65bfe2d0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.EventBasedAsync.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.EventBasedAsync.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ComponentModel.EventBasedAsync.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll.config'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel.EventBasedAsync/System.ComponentModel.EventBasedAsync.config'.
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll'.
+02-03 11:00:55.643 D/Mono    (18934): Image addref System.Diagnostics.Contracts[0x65bff1a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll[0x65bfe550]: 2
+02-03 11:00:55.643 D/Mono    (18934): Assembly System.Diagnostics.Contracts[0x65bff1a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Contracts.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Contracts.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Contracts.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll.config'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Contracts/System.Diagnostics.Contracts.config'.
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll'.
+02-03 11:00:55.643 D/Mono    (18934): Image addref System.Diagnostics.Debug[0x670650a8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll[0x65bff3d0]: 2
+02-03 11:00:55.643 D/Mono    (18934): Assembly System.Diagnostics.Debug[0x670650a8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Debug.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Debug.dll.so" not found
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll.config'.
+02-03 11:00:55.643 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Debug/System.Diagnostics.Debug.config'.
+02-03 11:00:55.643 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Image addref System.Diagnostics.Tools[0x67068008] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll[0x67065338]: 2
+02-03 11:00:55.653 D/Mono    (18934): Assembly System.Diagnostics.Tools[0x67068008] added to domain RootDomain, ref_count=1
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Tools.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Tools.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Tools.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll.config'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Tools/System.Diagnostics.Tools.config'.
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Image addref System.Diagnostics.Tracing[0x67068ed0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll[0x67068218]: 2
+02-03 11:00:55.653 D/Mono    (18934): Assembly System.Diagnostics.Tracing[0x67068ed0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Tracing.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Tracing.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Diagnostics.Tracing.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll.config'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Tracing/System.Diagnostics.Tracing.config'.
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Image addref System.Dynamic.Runtime[0x6706beb8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll[0x6706b130]: 2
+02-03 11:00:55.653 D/Mono    (18934): Assembly System.Dynamic.Runtime[0x6706beb8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Dynamic.Runtime.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Dynamic.Runtime.dll.so" not found
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll.config'.
+02-03 11:00:55.653 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Dynamic.Runtime/System.Dynamic.Runtime.config'.
+02-03 11:00:55.653 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Image addref System.Globalization[0x6706ed98] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll[0x6706e110]: 2
+02-03 11:00:55.663 D/Mono    (18934): Assembly System.Globalization[0x6706ed98] added to domain RootDomain, ref_count=1
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Globalization.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Globalization.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Globalization.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll.config'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Globalization/System.Globalization.config'.
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Image addref System.IO[0x67071c70] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll[0x67071068]: 2
+02-03 11:00:55.663 D/Mono    (18934): Assembly System.IO[0x67071c70] added to domain RootDomain, ref_count=1
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.IO.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.IO.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.IO.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll.config'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.IO/System.IO.config'.
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Image addref System.Linq[0x67074b38] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll[0x67074008]: 2
+02-03 11:00:55.663 D/Mono    (18934): Assembly System.Linq[0x67074b38] added to domain RootDomain, ref_count=1
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.dll.so" not found
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll.config'.
+02-03 11:00:55.663 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Linq/System.Linq.config'.
+02-03 11:00:55.663 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Image addref System.Linq.Expressions[0x67077a18] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll[0x67077008]: 2
+02-03 11:00:55.673 D/Mono    (18934): Assembly System.Linq.Expressions[0x67077a18] added to domain RootDomain, ref_count=1
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Expressions.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Expressions.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll.config'.
+02-03 11:00:55.673 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Linq.Expressions/System.Linq.Expressions.config'.
+02-03 11:00:55.673 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Image addref System.Linq.Parallel[0x6707a910] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll[0x6707a008]: 2
+02-03 11:00:55.673 D/Mono    (18934): Assembly System.Linq.Parallel[0x6707a910] added to domain RootDomain, ref_count=1
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Parallel.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.Parallel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Parallel.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll.config'.
+02-03 11:00:55.673 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Linq.Parallel/System.Linq.Parallel.config'.
+02-03 11:00:55.673 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Image addref System.Linq.Queryable[0x6707d808] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll[0x6707d008]: 2
+02-03 11:00:55.673 D/Mono    (18934): Assembly System.Linq.Queryable[0x6707d808] added to domain RootDomain, ref_count=1
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Queryable.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.Queryable.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Linq.Queryable.dll.so" not found
+02-03 11:00:55.673 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll'.
+02-03 11:00:55.673 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll.config'.
+02-03 11:00:55.683 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Linq.Queryable/System.Linq.Queryable.config'.
+02-03 11:00:55.683 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll'.
+02-03 11:00:55.683 D/Mono    (18934): Image addref System.Net.NetworkInformation[0x67082728] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll[0x6707db28]: 2
+02-03 11:00:55.683 D/Mono    (18934): Assembly System.Net.NetworkInformation[0x67082728] added to domain RootDomain, ref_count=1
+02-03 11:00:55.683 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.NetworkInformation.dll.so" not found
+02-03 11:00:55.683 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.NetworkInformation.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.NetworkInformation.dll.so" not found
+02-03 11:00:55.683 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll'.
+02-03 11:00:55.683 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll.config'.
+02-03 11:00:55.683 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.NetworkInformation/System.Net.NetworkInformation.config'.
+02-03 11:00:55.683 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll'.
+02-03 11:00:55.683 D/Mono    (18934): Image addref System.Net.Primitives[0x67085610] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll[0x670829e0]: 2
+02-03 11:00:55.683 D/Mono    (18934): Assembly System.Net.Primitives[0x67085610] added to domain RootDomain, ref_count=1
+02-03 11:00:55.683 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.Primitives.dll.so" not found
+02-03 11:00:55.683 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.Primitives.dll.so" not found
+02-03 11:00:55.683 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll'.
+02-03 11:00:55.683 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll.config'.
+02-03 11:00:55.683 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.Primitives/System.Net.Primitives.config'.
+02-03 11:00:55.683 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll'.
+02-03 11:00:55.683 D/Mono    (18934): Image addref System.Net.Requests[0x67088500] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll[0x670858d8]: 2
+02-03 11:00:55.683 D/Mono    (18934): Assembly System.Net.Requests[0x67088500] added to domain RootDomain, ref_count=1
+02-03 11:00:55.683 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.Requests.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Requests.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Net.Requests.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll.config'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.Requests/System.Net.Requests.config'.
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Image addref System.ObjectModel[0x6708b3e0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll[0x67088770]: 2
+02-03 11:00:55.693 D/Mono    (18934): Assembly System.ObjectModel[0x6708b3e0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ObjectModel.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ObjectModel.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll.config'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ObjectModel/System.ObjectModel.config'.
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Image addref System.Reflection[0x6708e2d0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll[0x6708b660]: 2
+02-03 11:00:55.693 D/Mono    (18934): Assembly System.Reflection[0x6708e2d0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.dll.so" not found
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll.config'.
+02-03 11:00:55.693 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+02-03 11:00:55.693 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll'.
+02-03 11:00:55.693 D/Mono    (18934): Image addref System.Reflection.Emit[0x670911c0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll[0x6708e560]: 2
+02-03 11:00:55.693 D/Mono    (18934): Assembly System.Reflection.Emit[0x670911c0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.693 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Emit.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll.config'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection.Emit/System.Reflection.Emit.config'.
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Image addref System.Reflection.Emit.ILGeneration[0x67094110] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll[0x670914d8]: 2
+02-03 11:00:55.703 D/Mono    (18934): Assembly System.Reflection.Emit.ILGeneration[0x67094110] added to domain RootDomain, ref_count=1
+02-03 11:00:55.703 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.ILGeneration.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Emit.ILGeneration.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.ILGeneration.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll.config'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection.Emit.ILGeneration/System.Reflection.Emit.ILGeneration.config'.
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Image addref System.Reflection.Emit.Lightweight[0x670970d8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll[0x670944c8]: 2
+02-03 11:00:55.703 D/Mono    (18934): Assembly System.Reflection.Emit.Lightweight[0x670970d8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.703 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.Lightweight.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Emit.Lightweight.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Emit.Lightweight.dll.so" not found
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll.config'.
+02-03 11:00:55.703 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection.Emit.Lightweight/System.Reflection.Emit.Lightweight.config'.
+02-03 11:00:55.703 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll'.
+02-03 11:00:55.703 D/Mono    (18934): Image addref System.Reflection.Extensions[0x6709a008] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll[0x67097378]: 2
+02-03 11:00:55.703 D/Mono    (18934): Assembly System.Reflection.Extensions[0x6709a008] added to domain RootDomain, ref_count=1
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Extensions.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Extensions.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll.config'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection.Extensions/System.Reflection.Extensions.config'.
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Image addref System.Reflection.Primitives[0x6709ae90] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll[0x6709a288]: 2
+02-03 11:00:55.713 D/Mono    (18934): Assembly System.Reflection.Primitives[0x6709ae90] added to domain RootDomain, ref_count=1
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Primitives.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Reflection.Primitives.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll.config'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Reflection.Primitives/System.Reflection.Primitives.config'.
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Image addref System.Resources.ResourceManager[0x6709dda8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll[0x6709d208]: 2
+02-03 11:00:55.713 D/Mono    (18934): Assembly System.Resources.ResourceManager[0x6709dda8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Resources.ResourceManager.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Resources.ResourceManager.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Resources.ResourceManager.dll.so" not found
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll.config'.
+02-03 11:00:55.713 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Resources.ResourceManager/System.Resources.ResourceManager.config'.
+02-03 11:00:55.713 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll'.
+02-03 11:00:55.713 D/Mono    (18934): Image addref System.Runtime[0x670a0c78] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll[0x670a00c8]: 2
+02-03 11:00:55.713 D/Mono    (18934): Assembly System.Runtime[0x670a0c78] added to domain RootDomain, ref_count=1
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll.config'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll'.
+02-03 11:00:55.723 D/Mono    (18934): Image addref System.Runtime.Extensions[0x670a5ba8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll[0x670a5008]: 2
+02-03 11:00:55.723 D/Mono    (18934): Assembly System.Runtime.Extensions[0x670a5ba8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Extensions.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Extensions.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll.config'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.Extensions/System.Runtime.Extensions.config'.
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll'.
+02-03 11:00:55.723 D/Mono    (18934): Image addref System.Runtime.InteropServices[0x670a8ab0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll[0x670a8008]: 2
+02-03 11:00:55.723 D/Mono    (18934): Assembly System.Runtime.InteropServices[0x670a8ab0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.InteropServices.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.InteropServices.dll.so" not found
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll.config'.
+02-03 11:00:55.723 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.InteropServices/System.Runtime.InteropServices.config'.
+02-03 11:00:55.723 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Image addref System.Runtime.InteropServices.WindowsRuntime[0x670aba28] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll[0x670ab008]: 2
+02-03 11:00:55.733 D/Mono    (18934): Assembly System.Runtime.InteropServices.WindowsRuntime[0x670aba28] added to domain RootDomain, ref_count=1
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.InteropServices.WindowsRuntime.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.InteropServices.WindowsRuntime.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.InteropServices.WindowsRuntime.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll.config'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.InteropServices.WindowsRuntime/System.Runtime.InteropServices.WindowsRuntime.config'.
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Image addref System.Runtime.Numerics[0x670aea00] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll[0x670ae008]: 2
+02-03 11:00:55.733 D/Mono    (18934): Assembly System.Runtime.Numerics[0x670aea00] added to domain RootDomain, ref_count=1
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Numerics.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Numerics.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Numerics.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll.config'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.Numerics/System.Runtime.Numerics.config'.
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Image addref System.Runtime.Serialization.Json[0x670b1950] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll[0x670b1008]: 2
+02-03 11:00:55.733 D/Mono    (18934): Assembly System.Runtime.Serialization.Json[0x670b1950] added to domain RootDomain, ref_count=1
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Json.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.Json.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Json.dll.so" not found
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll.config'.
+02-03 11:00:55.733 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.Serialization.Json/System.Runtime.Serialization.Json.config'.
+02-03 11:00:55.733 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll'.
+02-03 11:00:55.743 D/Mono    (18934): Image addref System.Runtime.Serialization.Primitives[0x670b4880] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll[0x670b4008]: 2
+02-03 11:00:55.743 D/Mono    (18934): Assembly System.Runtime.Serialization.Primitives[0x670b4880] added to domain RootDomain, ref_count=1
+02-03 11:00:55.743 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Primitives.dll.so" not found
+02-03 11:00:55.743 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Primitives.dll.so" not found
+02-03 11:00:55.743 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll'.
+02-03 11:00:55.743 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll.config'.
+02-03 11:00:55.743 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.Serialization.Primitives/System.Runtime.Serialization.Primitives.config'.
+02-03 11:00:55.743 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll'.
+02-03 11:00:55.743 D/Mono    (18934): Image addref System.Runtime.Serialization.Xml[0x670b77a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll[0x670b7008]: 2
+02-03 11:00:55.743 D/Mono    (18934): Assembly System.Runtime.Serialization.Xml[0x670b77a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.743 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Xml.dll.so" not found
+02-03 11:00:55.743 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.Xml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.Xml.dll.so" not found
+02-03 11:00:55.743 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll'.
+02-03 11:00:55.743 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll.config'.
+02-03 11:00:55.743 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Runtime.Serialization.Xml/System.Runtime.Serialization.Xml.config'.
+02-03 11:00:55.743 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll'.
+02-03 11:00:55.743 D/Mono    (18934): Image addref System.Security.Principal[0x670ba6b0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll[0x670ba008]: 2
+02-03 11:00:55.743 D/Mono    (18934): Assembly System.Security.Principal[0x670ba6b0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Security.Principal.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Security.Principal.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Security.Principal.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll.config'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Security.Principal/System.Security.Principal.config'.
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll'.
+02-03 11:00:55.753 D/Mono    (18934): Image addref System.ServiceModel.Http[0x670bf5a0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll[0x670bab18]: 2
+02-03 11:00:55.753 D/Mono    (18934): Assembly System.ServiceModel.Http[0x670bf5a0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Http.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ServiceModel.Http.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Http.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll.config'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ServiceModel.Http/System.ServiceModel.Http.config'.
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll'.
+02-03 11:00:55.753 D/Mono    (18934): Image addref System.ServiceModel.Primitives[0x670c34d0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll[0x670bfa28]: 2
+02-03 11:00:55.753 D/Mono    (18934): Assembly System.ServiceModel.Primitives[0x670c34d0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Primitives.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ServiceModel.Primitives.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Primitives.dll.so" not found
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll.config'.
+02-03 11:00:55.753 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ServiceModel.Primitives/System.ServiceModel.Primitives.config'.
+02-03 11:00:55.753 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll'.
+02-03 11:00:55.763 D/Mono    (18934): Image addref System.ServiceModel.Security[0x670c63f0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll[0x670c3968]: 2
+02-03 11:00:55.763 D/Mono    (18934): Assembly System.ServiceModel.Security[0x670c63f0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.763 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Security.dll.so" not found
+02-03 11:00:55.763 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ServiceModel.Security.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Security.dll.so" not found
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll.config'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ServiceModel.Security/System.ServiceModel.Security.config'.
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll'.
+02-03 11:00:55.773 D/Mono    (18934): Image addref System.Text.Encoding[0x670c92c8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll[0x670c6898]: 2
+02-03 11:00:55.773 D/Mono    (18934): Assembly System.Text.Encoding[0x670c92c8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.773 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.Encoding.dll.so" not found
+02-03 11:00:55.773 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Text.Encoding.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.Encoding.dll.so" not found
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll.config'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Text.Encoding/System.Text.Encoding.config'.
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll'.
+02-03 11:00:55.773 D/Mono    (18934): Image addref System.Text.Encoding.Extensions[0x670cc1e8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll[0x670c9780]: 2
+02-03 11:00:55.773 D/Mono    (18934): Assembly System.Text.Encoding.Extensions[0x670cc1e8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.773 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.Encoding.Extensions.dll.so" not found
+02-03 11:00:55.773 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Text.Encoding.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.Encoding.Extensions.dll.so" not found
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll.config'.
+02-03 11:00:55.773 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Text.Encoding.Extensions/System.Text.Encoding.Extensions.config'.
+02-03 11:00:55.773 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll'.
+02-03 11:00:55.783 D/Mono    (18934): Image addref System.Text.RegularExpressions[0x670cf128] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll[0x670cc6b0]: 2
+02-03 11:00:55.783 D/Mono    (18934): Assembly System.Text.RegularExpressions[0x670cf128] added to domain RootDomain, ref_count=1
+02-03 11:00:55.783 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.RegularExpressions.dll.so" not found
+02-03 11:00:55.783 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Text.RegularExpressions.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Text.RegularExpressions.dll.so" not found
+02-03 11:00:55.783 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll'.
+02-03 11:00:55.783 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll.config'.
+02-03 11:00:55.783 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Text.RegularExpressions/System.Text.RegularExpressions.config'.
+02-03 11:00:55.783 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll'.
+02-03 11:00:55.783 D/Mono    (18934): Image addref System.Threading[0x670d2008] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll[0x670cf5e0]: 2
+02-03 11:00:55.783 D/Mono    (18934): Assembly System.Threading[0x670d2008] added to domain RootDomain, ref_count=1
+02-03 11:00:55.783 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.dll.so" not found
+02-03 11:00:55.783 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.dll.so" not found
+02-03 11:00:55.783 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll'.
+02-03 11:00:55.783 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll.config'.
+02-03 11:00:55.783 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Threading/System.Threading.config'.
+02-03 11:00:55.783 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll'.
+02-03 11:00:55.783 D/Mono    (18934): Image addref System.Threading.Tasks[0x670d2eb8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll[0x670d24d0]: 2
+02-03 11:00:55.783 D/Mono    (18934): Assembly System.Threading.Tasks[0x670d2eb8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Tasks.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Tasks.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll.config'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Threading.Tasks/System.Threading.Tasks.config'.
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll'.
+02-03 11:00:55.793 D/Mono    (18934): Image addref System.Threading.Tasks.Parallel[0x670d5de8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll[0x670d53e0]: 2
+02-03 11:00:55.793 D/Mono    (18934): Assembly System.Threading.Tasks.Parallel[0x670d5de8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Tasks.Parallel.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Tasks.Parallel.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Tasks.Parallel.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll.config'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Threading.Tasks.Parallel/System.Threading.Tasks.Parallel.config'.
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll'.
+02-03 11:00:55.793 D/Mono    (18934): Image addref System.Threading.Timer[0x670d8cf8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll[0x670d8320]: 2
+02-03 11:00:55.793 D/Mono    (18934): Assembly System.Threading.Timer[0x670d8cf8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Timer.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Timer.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Threading.Timer.dll.so" not found
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll.config'.
+02-03 11:00:55.793 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Threading.Timer/System.Threading.Timer.config'.
+02-03 11:00:55.793 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll'.
+02-03 11:00:55.803 D/Mono    (18934): Image addref System.Xml.ReaderWriter[0x670dbbf0] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll[0x670db230]: 2
+02-03 11:00:55.803 D/Mono    (18934): Assembly System.Xml.ReaderWriter[0x670dbbf0] added to domain RootDomain, ref_count=1
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.ReaderWriter.dll.so" not found
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.ReaderWriter.dll.so" not found
+02-03 11:00:55.803 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll'.
+02-03 11:00:55.803 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll.config'.
+02-03 11:00:55.803 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Xml.ReaderWriter/System.Xml.ReaderWriter.config'.
+02-03 11:00:55.803 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll'.
+02-03 11:00:55.803 D/Mono    (18934): Image addref System.Xml.XDocument[0x670deac8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll[0x670de008]: 2
+02-03 11:00:55.803 D/Mono    (18934): Assembly System.Xml.XDocument[0x670deac8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.XDocument.dll.so" not found
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.XDocument.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.XDocument.dll.so" not found
+02-03 11:00:55.803 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll'.
+02-03 11:00:55.803 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll.config'.
+02-03 11:00:55.803 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Xml.XDocument/System.Xml.XDocument.config'.
+02-03 11:00:55.803 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll'.
+02-03 11:00:55.803 D/Mono    (18934): Image addref System.Xml.XmlSerializer[0x670e19c8] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll[0x670e1028]: 2
+02-03 11:00:55.803 D/Mono    (18934): Assembly System.Xml.XmlSerializer[0x670e19c8] added to domain RootDomain, ref_count=1
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.XmlSerializer.dll.so" not found
+02-03 11:00:55.803 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.XmlSerializer.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.XmlSerializer.dll.so" not found
+02-03 11:00:55.813 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll'.
+02-03 11:00:55.813 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll.config'.
+02-03 11:00:55.813 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Xml.XmlSerializer/System.Xml.XmlSerializer.config'.
+02-03 11:00:55.813 D/Mono    (18934): Assembly Loader probing location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll'.
+02-03 11:00:55.813 D/Mono    (18934): Image addref System.ServiceModel.Internals[0x670e4928] -> /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll[0x670e4008]: 2
+02-03 11:00:55.813 D/Mono    (18934): Assembly System.ServiceModel.Internals[0x670e4928] added to domain RootDomain, ref_count=1
+02-03 11:00:55.813 D/Mono    (18934): AOT module '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Internals.dll.so" not found
+02-03 11:00:55.813 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ServiceModel.Internals.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.ServiceModel.Internals.dll.so" not found
+02-03 11:00:55.823 D/Mono    (18934): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll'.
+02-03 11:00:55.823 D/Mono    (18934): Config attempting to parse: '/storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll.config'.
+02-03 11:00:55.823 D/Mono    (18934): Config attempting to parse: '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ServiceModel.Internals/System.ServiceModel.Internals.config'.
+02-03 11:00:55.823 W/monodroid-gc(18934): GREF GC Threshold: 46080
+02-03 11:00:55.823 D/Mono    (18934): Image addref Mono.Android[0x67133848] -> Mono.Android.dll[0x67133008]: 1
+02-03 11:00:55.823 D/Mono    (18934): Assembly Mono.Android[0x67133848] added to domain RootDomain, ref_count=1
+02-03 11:00:55.823 D/Mono    (18934): AOT module 'Mono.Android.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Mono.Android.dll.so" not found
+02-03 11:00:55.823 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Mono.Android.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-Mono.Android.dll.so" not found
+02-03 11:00:55.943 D/Mono    (18934): Unloading image data-0x67134008 [0x671338c8].
+02-03 11:00:55.983 D/Mono    (18934): Assembly Ref addref Mono.Android[0x67133848] -> mscorlib[0x60cc3f20]: 2
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.Droid.dll
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/BouncyCastle.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/FormsViewGroup.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MailKit.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/MimeKit.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/UnaPantalla.dll
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Android.Support.v4.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Core.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.Concurrent.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Collections.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.Annotations.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Contracts.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Debug.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tools.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Diagnostics.Tracing.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Dynamic.Runtime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Globalization.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.IO.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Expressions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Parallel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Linq.Queryable.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.NetworkInformation.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Net.Requests.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ObjectModel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Emit.Lightweight.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Reflection.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Resources.ResourceManager.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Numerics.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Json.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Runtime.Serialization.Xml.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Security.Principal.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Http.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Security.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.Encoding.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Text.RegularExpressions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Tasks.Parallel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Threading.Timer.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.ReaderWriter.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XDocument.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.Xml.XmlSerializer.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/UnaPantalla.Droid/files/.__override__/System.ServiceModel.Internals.dll [External]
+Loaded assembly: Mono.Android.dll [External]
+02-03 11:00:56.313 D/Mono    (18934): DllImport attempting to load: '__Internal'.
+02-03 11:00:56.313 D/Mono    (18934): DllImport loaded library '(null)'.
+02-03 11:00:56.313 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.313 D/Mono    (18934): Searching for '_monodroid_lref_log_new'.
+02-03 11:00:56.313 D/Mono    (18934): Probing '_monodroid_lref_log_new'.
+02-03 11:00:56.313 D/Mono    (18934): Found as '_monodroid_lref_log_new'.
+02-03 11:00:56.323 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.323 D/Mono    (18934): Searching for '_monodroid_lref_log_delete'.
+02-03 11:00:56.323 D/Mono    (18934): Probing '_monodroid_lref_log_delete'.
+02-03 11:00:56.323 D/Mono    (18934): Found as '_monodroid_lref_log_delete'.
+02-03 11:00:56.323 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.323 D/Mono    (18934): Searching for '_monodroid_gref_log_new'.
+02-03 11:00:56.323 D/Mono    (18934): Probing '_monodroid_gref_log_new'.
+02-03 11:00:56.323 D/Mono    (18934): Found as '_monodroid_gref_log_new'.
+02-03 11:00:56.343 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.343 D/Mono    (18934): Searching for '_monodroid_get_identity_hash_code'.
+02-03 11:00:56.343 D/Mono    (18934): Probing '_monodroid_get_identity_hash_code'.
+02-03 11:00:56.343 D/Mono    (18934): Found as '_monodroid_get_identity_hash_code'.
+02-03 11:00:56.413 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.413 D/Mono    (18934): Searching for 'monodroid_typemap_java_to_managed'.
+02-03 11:00:56.413 D/Mono    (18934): Probing 'monodroid_typemap_java_to_managed'.
+02-03 11:00:56.413 D/Mono    (18934): Found as 'monodroid_typemap_java_to_managed'.
+02-03 11:00:56.493 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.493 D/Mono    (18934): Searching for '_monodroid_gref_log'.
+02-03 11:00:56.493 D/Mono    (18934): Probing '_monodroid_gref_log'.
+02-03 11:00:56.493 D/Mono    (18934): Found as '_monodroid_gref_log'.
+02-03 11:00:56.523 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.523 D/Mono    (18934): Searching for 'monodroid_typemap_managed_to_java'.
+02-03 11:00:56.523 D/Mono    (18934): Probing 'monodroid_typemap_managed_to_java'.
+02-03 11:00:56.523 D/Mono    (18934): Found as 'monodroid_typemap_managed_to_java'.
+02-03 11:00:56.543 D/Mono    (18934): Image addref System.Core[0x6796ac08] -> System.Core.dll[0x6791a560]: 1
+02-03 11:00:56.543 D/Mono    (18934): Assembly System.Core[0x6796ac08] added to domain RootDomain, ref_count=1
+02-03 11:00:56.543 D/Mono    (18934): AOT module 'System.Core.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Core.dll.so" not found
+02-03 11:00:56.543 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Core.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Core.dll.so" not found
+02-03 11:00:56.553 D/Mono    (18934): Unloading image data-0x6797a008 [0x6796ac78].
+02-03 11:00:56.553 D/Mono    (18934): Assembly Ref addref Mono.Android[0x67133848] -> System.Core[0x6796ac08]: 2
+02-03 11:00:56.553 D/Mono    (18934): Assembly Ref addref System.Core[0x6796ac08] -> mscorlib[0x60cc3f20]: 3
+Loaded assembly: System.Core.dll [External]
+02-03 11:00:56.913 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.913 D/Mono    (18934): Searching for '_monodroid_gref_log_delete'.
+02-03 11:00:56.913 D/Mono    (18934): Probing '_monodroid_gref_log_delete'.
+02-03 11:00:56.913 D/Mono    (18934): Found as '_monodroid_gref_log_delete'.
+02-03 11:00:56.923 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:00:56.923 D/Mono    (18934): Searching for '_monodroid_gc_wait_for_bridge_processing'.
+02-03 11:00:56.923 D/Mono    (18934): Probing '_monodroid_gc_wait_for_bridge_processing'.
+02-03 11:00:56.923 D/Mono    (18934): Found as '_monodroid_gc_wait_for_bridge_processing'.
+02-03 11:00:56.953 D/Mono    (18934): Assembly Ref addref FormsViewGroup[0x65bd3eb0] -> mscorlib[0x60cc3f20]: 4
+02-03 11:00:56.953 D/Mono    (18934): Assembly Ref addref FormsViewGroup[0x65bd3eb0] -> Mono.Android[0x67133848]: 2
+02-03 11:00:56.953 D/Mono    (18934): Assembly Ref addref Xamarin.Android.Support.v4[0x65bdeb08] -> mscorlib[0x60cc3f20]: 5
+02-03 11:00:56.973 D/Mono    (18934): Assembly Ref addref Xamarin.Android.Support.v4[0x65bdeb08] -> Mono.Android[0x67133848]: 3
+02-03 11:00:56.973 W/monodroid(18934): Xamarin/Android Trial Mode Active
+02-03 11:00:57.103 I/Adreno-EGL(18934): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
+02-03 11:00:57.103 I/Adreno-EGL(18934): OpenGL ES Shader Compiler Version: E031.24.00.08
+02-03 11:00:57.103 I/Adreno-EGL(18934): Build Date: 03/21/14 Fri
+02-03 11:00:57.103 I/Adreno-EGL(18934): Local Branch: AU200-20140313-all-patches-KK8x26-664328
+02-03 11:00:57.103 I/Adreno-EGL(18934): Remote Branch: 
+02-03 11:00:57.103 I/Adreno-EGL(18934): Local Patches: 
+02-03 11:00:57.103 I/Adreno-EGL(18934): Reconstruct Branch: 
+02-03 11:00:57.183 D/OpenGLRenderer(18934): Enabling debug mode 0
+02-03 11:00:57.263 I/ActivityManager(18934): Timeline: Activity_idle id: android.os.BinderProxy@42124cd8 time:301377063
+02-03 11:01:00.843 I/ActivityManager(18934): Timeline: Activity_launch_request id:UnaPantalla.Droid time:301380647
+02-03 11:01:01.013 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> Mono.Android[0x67133848]: 4
+02-03 11:01:01.153 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> Xamarin.Forms.Platform.Android[0x65be08a0]: 2
+02-03 11:01:01.153 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> Mono.Android[0x67133848]: 5
+02-03 11:01:01.163 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> Xamarin.Forms.Core[0x65bdf9c0]: 2
+02-03 11:01:01.163 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Runtime[0x670a0c78]: 2
+02-03 11:01:01.163 D/Mono    (18934): Assembly Ref addref System.Runtime[0x670a0c78] -> mscorlib[0x60cc3f20]: 6
+02-03 11:01:01.163 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.ObjectModel[0x6708b3e0]: 2
+02-03 11:01:01.173 D/Mono    (18934): Image addref System[0x693026d8] -> System.dll[0x692d3670]: 1
+02-03 11:01:01.173 D/Mono    (18934): Assembly System[0x693026d8] added to domain RootDomain, ref_count=1
+02-03 11:01:01.173 D/Mono    (18934): AOT module 'System.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.dll.so" not found
+02-03 11:01:01.173 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.dll.so" not found
+02-03 11:01:01.183 D/Mono    (18934): Unloading image data-0x699ad008 [0x692bb1e0].
+02-03 11:01:01.183 D/Mono    (18934): Assembly Ref addref System.ObjectModel[0x6708b3e0] -> System[0x693026d8]: 2
+02-03 11:01:01.193 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> mscorlib[0x60cc3f20]: 7
+Loaded assembly: System.dll [External]
+Loaded assembly: MonoDroidConstructors [External]
+02-03 11:01:01.333 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> mscorlib[0x60cc3f20]: 8
+02-03 11:01:01.333 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> Xamarin.Forms.Core[0x65bdf9c0]: 3
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> UnaPantalla[0x65bdaaa0]: 2
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref UnaPantalla[0x65bdaaa0] -> Xamarin.Forms.Core[0x65bdf9c0]: 4
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref System[0x693026d8] -> mscorlib[0x60cc3f20]: 9
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Collections[0x65bf5578]: 2
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref System.Collections[0x65bf5578] -> mscorlib[0x60cc3f20]: 10
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Threading.Tasks[0x670d2eb8]: 2
+02-03 11:01:01.343 D/Mono    (18934): Assembly Ref addref System.Threading.Tasks[0x670d2eb8] -> mscorlib[0x60cc3f20]: 11
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> System[0x693026d8]: 3
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.Runtime[0x670a0c78] -> System[0x693026d8]: 4
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.IO[0x67071c70]: 2
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.IO[0x67071c70] -> mscorlib[0x60cc3f20]: 12
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Reflection[0x6708e2d0]: 2
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.Reflection[0x6708e2d0] -> mscorlib[0x60cc3f20]: 13
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Threading[0x670d2008]: 2
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.Threading[0x670d2008] -> mscorlib[0x60cc3f20]: 14
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Runtime.Extensions[0x670a5ba8]: 2
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.Runtime.Extensions[0x670a5ba8] -> System[0x693026d8]: 5
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> System.Core[0x6796ac08]: 3
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Linq.Expressions[0x67077a18]: 2
+02-03 11:01:01.493 D/Mono    (18934): Assembly Ref addref System.Linq.Expressions[0x67077a18] -> System.Core[0x6796ac08]: 4
+02-03 11:01:01.513 D/Mono    (18934): Assembly Ref addref System.Runtime.Extensions[0x670a5ba8] -> mscorlib[0x60cc3f20]: 15
+02-03 11:01:01.553 D/Mono    (18934): Assembly Ref addref System.Collections[0x65bf5578] -> System[0x693026d8]: 6
+02-03 11:01:01.573 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Linq[0x67074b38]: 2
+02-03 11:01:01.573 D/Mono    (18934): Assembly Ref addref System.Linq[0x67074b38] -> System.Core[0x6796ac08]: 5
+02-03 11:01:01.583 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Reflection.Extensions[0x6709a008]: 2
+02-03 11:01:01.583 D/Mono    (18934): Assembly Ref addref System.Reflection.Extensions[0x6709a008] -> mscorlib[0x60cc3f20]: 16
+02-03 11:01:01.593 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Dynamic.Runtime[0x6706beb8]: 2
+02-03 11:01:01.593 D/Mono    (18934): Assembly Ref addref System.Dynamic.Runtime[0x6706beb8] -> mscorlib[0x60cc3f20]: 17
+Thread started:  #2
+02-03 11:01:01.753 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> FormsViewGroup[0x65bd3eb0]: 2
+02-03 11:01:01.763 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> Xamarin.Android.Support.v4[0x65bdeb08]: 2
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref BouncyCastle[0x65bd3008] -> mscorlib[0x60cc3f20]: 18
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref MailKit[0x65bd8d70] -> mscorlib[0x60cc3f20]: 19
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref MimeKit[0x65bd9be8] -> mscorlib[0x60cc3f20]: 20
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref UnaPantalla[0x65bdaaa0] -> System.Runtime[0x670a0c78]: 3
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref UnaPantalla[0x65bdaaa0] -> System.Resources.ResourceManager[0x6709dda8]: 2
+02-03 11:01:01.783 D/Mono    (18934): Assembly Ref addref System.Resources.ResourceManager[0x6709dda8] -> mscorlib[0x60cc3f20]: 21
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Runtime[0x670a0c78]: 4
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> Xamarin.Forms.Core[0x65bdf9c0]: 5
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.Collections.Concurrent[0x65bf26a0] -> mscorlib[0x60cc3f20]: 22
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.ComponentModel.Annotations[0x65bf84b0] -> mscorlib[0x60cc3f20]: 23
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.ComponentModel[0x65bfb380] -> mscorlib[0x60cc3f20]: 24
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.ComponentModel.EventBasedAsync[0x65bfe2d0] -> mscorlib[0x60cc3f20]: 25
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.Diagnostics.Contracts[0x65bff1a0] -> mscorlib[0x60cc3f20]: 26
+02-03 11:01:01.793 D/Mono    (18934): Assembly Ref addref System.Diagnostics.Debug[0x670650a8] -> mscorlib[0x60cc3f20]: 27
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Diagnostics.Tools[0x67068008] -> mscorlib[0x60cc3f20]: 28
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Diagnostics.Tracing[0x67068ed0] -> mscorlib[0x60cc3f20]: 29
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Globalization[0x6706ed98] -> mscorlib[0x60cc3f20]: 30
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Linq[0x67074b38] -> mscorlib[0x60cc3f20]: 31
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Linq.Expressions[0x67077a18] -> mscorlib[0x60cc3f20]: 32
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Linq.Parallel[0x6707a910] -> mscorlib[0x60cc3f20]: 33
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Linq.Queryable[0x6707d808] -> mscorlib[0x60cc3f20]: 34
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Net.NetworkInformation[0x67082728] -> mscorlib[0x60cc3f20]: 35
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Net.Primitives[0x67085610] -> mscorlib[0x60cc3f20]: 36
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Net.Requests[0x67088500] -> mscorlib[0x60cc3f20]: 37
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.ObjectModel[0x6708b3e0] -> mscorlib[0x60cc3f20]: 38
+02-03 11:01:01.803 D/Mono    (18934): Assembly Ref addref System.Reflection.Emit[0x670911c0] -> mscorlib[0x60cc3f20]: 39
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Reflection.Emit.ILGeneration[0x67094110] -> mscorlib[0x60cc3f20]: 40
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Reflection.Emit.Lightweight[0x670970d8] -> mscorlib[0x60cc3f20]: 41
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Reflection.Primitives[0x6709ae90] -> mscorlib[0x60cc3f20]: 42
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.InteropServices[0x670a8ab0] -> mscorlib[0x60cc3f20]: 43
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.InteropServices.WindowsRuntime[0x670aba28] -> mscorlib[0x60cc3f20]: 44
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.Numerics[0x670aea00] -> mscorlib[0x60cc3f20]: 45
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization.Json[0x670b1950] -> mscorlib[0x60cc3f20]: 46
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization.Primitives[0x670b4880] -> mscorlib[0x60cc3f20]: 47
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization.Xml[0x670b77a0] -> mscorlib[0x60cc3f20]: 48
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.Security.Principal[0x670ba6b0] -> mscorlib[0x60cc3f20]: 49
+02-03 11:01:01.813 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Http[0x670bf5a0] -> mscorlib[0x60cc3f20]: 50
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Primitives[0x670c34d0] -> mscorlib[0x60cc3f20]: 51
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Security[0x670c63f0] -> mscorlib[0x60cc3f20]: 52
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Text.Encoding[0x670c92c8] -> mscorlib[0x60cc3f20]: 53
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Text.Encoding.Extensions[0x670cc1e8] -> mscorlib[0x60cc3f20]: 54
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Text.RegularExpressions[0x670cf128] -> mscorlib[0x60cc3f20]: 55
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Threading.Tasks.Parallel[0x670d5de8] -> mscorlib[0x60cc3f20]: 56
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Threading.Timer[0x670d8cf8] -> mscorlib[0x60cc3f20]: 57
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Xml.ReaderWriter[0x670dbbf0] -> mscorlib[0x60cc3f20]: 58
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Xml.XDocument[0x670deac8] -> mscorlib[0x60cc3f20]: 59
+02-03 11:01:01.823 D/Mono    (18934): Assembly Ref addref System.Xml.XmlSerializer[0x670e19c8] -> mscorlib[0x60cc3f20]: 60
+02-03 11:01:01.833 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Internals[0x670e4928] -> mscorlib[0x60cc3f20]: 61
+Thread started: <Thread Pool> #3
+Thread started: <Thread Pool> #4
+02-03 11:01:01.963 D/Mono    (18934): [0x69e08240] worker starting
+Thread started: <Thread Pool> #5
+02-03 11:01:01.983 D/Mono    (18934): [0x69f42de0] worker starting
+02-03 11:01:02.003 D/Mono    (18934): Image addref System.Runtime.Serialization[0x6a072050] -> System.Runtime.Serialization.dll[0x69f59ba8]: 1
+02-03 11:01:02.003 D/Mono    (18934): Assembly System.Runtime.Serialization[0x6a072050] added to domain RootDomain, ref_count=1
+02-03 11:01:02.003 D/Mono    (18934): AOT module 'System.Runtime.Serialization.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.dll.so" not found
+02-03 11:01:02.003 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Runtime.Serialization.dll.so" not found
+02-03 11:01:02.013 D/Mono    (18934): Unloading image data-0x6a089008 [0x6a070710].
+02-03 11:01:02.013 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Platform.Android[0x65be08a0] -> System.Runtime.Serialization[0x6a072050]: 2
+02-03 11:01:02.023 D/Mono    (18934): Image addref System.Xml[0x6a07f268] -> System.Xml.dll[0x6a07e5c8]: 1
+02-03 11:01:02.023 D/Mono    (18934): Assembly System.Xml[0x6a07f268] added to domain RootDomain, ref_count=1
+02-03 11:01:02.023 D/Mono    (18934): AOT module 'System.Xml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.dll.so" not found
+02-03 11:01:02.023 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-System.Xml.dll.so" not found
+02-03 11:01:02.033 D/Mono    (18934): Unloading image data-0x6a0d8008 [0x6a07f2e8].
+02-03 11:01:02.033 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization[0x6a072050] -> System.Xml[0x6a07f268]: 2
+02-03 11:01:02.033 D/Mono    (18934): Assembly Ref addref System.Xml[0x6a07f268] -> mscorlib[0x60cc3f20]: 62
+02-03 11:01:02.043 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization[0x6a072050] -> mscorlib[0x60cc3f20]: 63
+Loaded assembly: System.Runtime.Serialization.dll [External]
+Loaded assembly: System.Xml.dll [External]
+02-03 11:01:02.093 D/Mono    (18934): Assembly Ref addref System.Collections[0x65bf5578] -> System.Core[0x6796ac08]: 6
+02-03 11:01:02.093 D/Mono    (18934): Assembly Ref addref System.Core[0x6796ac08] -> System[0x693026d8]: 7
+02-03 11:01:02.183 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization[0x6a072050] -> System.ServiceModel.Internals[0x670e4928]: 2
+02-03 11:01:02.193 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Internals[0x670e4928] -> System.Xml[0x6a07f268]: 3
+02-03 11:01:02.193 D/Mono    (18934): Assembly Ref addref System.Runtime.Serialization[0x6a072050] -> System[0x693026d8]: 8
+02-03 11:01:02.243 D/Mono    (18934): Assembly Ref addref UnaPantalla[0x65bdaaa0] -> Xamarin.Forms.Xaml[0x65bef7a0]: 2
+02-03 11:01:02.243 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Collections[0x65bf5578]: 3
+02-03 11:01:02.243 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Xml.ReaderWriter[0x670dbbf0]: 2
+02-03 11:01:02.243 D/Mono    (18934): Assembly Ref addref System.Xml.ReaderWriter[0x670dbbf0] -> System.Xml[0x6a07f268]: 4
+02-03 11:01:02.253 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Reflection[0x6708e2d0]: 3
+02-03 11:01:02.263 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.IO[0x67071c70]: 3
+02-03 11:01:02.263 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Text.RegularExpressions[0x670cf128]: 2
+02-03 11:01:02.263 D/Mono    (18934): Assembly Ref addref System.Text.RegularExpressions[0x670cf128] -> System[0x693026d8]: 9
+02-03 11:01:02.353 D/Mono    (18934): Assembly Ref addref System.Xml[0x6a07f268] -> System[0x693026d8]: 10
+02-03 11:01:02.593 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Xml.ReaderWriter[0x670dbbf0]: 3
+02-03 11:01:02.643 D/Mono    (18934): Assembly Ref addref System.ServiceModel.Internals[0x670e4928] -> System[0x693026d8]: 11
+02-03 11:01:02.763 D/Mono    (18934): DllImport attempting to load: '/system/lib/libc.so'.
+02-03 11:01:02.763 D/Mono    (18934): DllImport loaded library '/system/lib/libc.so'.
+02-03 11:01:02.763 D/Mono    (18934): DllImport searching in: '/system/lib/libc.so' ('/system/lib/libc.so').
+02-03 11:01:02.763 D/Mono    (18934): Searching for 'gettid'.
+02-03 11:01:02.763 D/Mono    (18934): Probing 'gettid'.
+02-03 11:01:02.763 D/Mono    (18934): Found as 'gettid'.
+02-03 11:01:02.773 D/Mono    (18934): [0x69e08240] hill climbing, change max number of threads 4
+02-03 11:01:02.823 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Linq[0x67074b38]: 3
+02-03 11:01:02.863 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.ComponentModel[0x65bfb380]: 2
+02-03 11:01:02.873 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.ComponentModel[0x65bfb380]: 3
+02-03 11:01:02.923 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Reflection.Extensions[0x6709a008]: 3
+02-03 11:01:02.963 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Xaml[0x65bef7a0] -> System.Globalization[0x6706ed98]: 2
+02-03 11:01:02.963 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Globalization[0x6706ed98]: 3
+02-03 11:01:03.023 D/Mono    (18934): Assembly Ref addref Xamarin.Forms.Core[0x65bdf9c0] -> System.Diagnostics.Debug[0x670650a8]: 2
+02-03 11:01:03.273 I/dalvikvm(18934): Could not find method android.view.ViewGroup.<init>, referenced from method md5d4dd78677dce656d5db26c85a3743ef3.PlatformRenderer.<init>
+02-03 11:01:03.273 W/dalvikvm(18934): VFY: unable to resolve direct method 7413: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+02-03 11:01:03.273 D/dalvikvm(18934): VFY: replacing opcode 0x70 at 0x0000
+02-03 11:01:03.423 I/dalvikvm(18934): Could not find method android.widget.TextView.<init>, referenced from method md5d4dd78677dce656d5db26c85a3743ef3.FormsTextView.<init>
+02-03 11:01:03.423 W/dalvikvm(18934): VFY: unable to resolve direct method 7857: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+02-03 11:01:03.423 D/dalvikvm(18934): VFY: replacing opcode 0x70 at 0x0000
+02-03 11:01:03.573 D/Mono    (18934): Assembly Ref addref Mono.Android[0x67133848] -> System.Xml[0x6a07f268]: 5
+02-03 11:01:03.953 I/ActivityManager(18934): Timeline: Activity_idle id: android.os.BinderProxy@422f0fc8 time:301383756
+02-03 11:01:04.963 I/ViewRootImpl(18934): ViewRoot's Touch Event : ACTION_DOWN
+02-03 11:01:05.053 I/ViewRootImpl(18934): ViewRoot's Touch Event : ACTION_UP
+02-03 11:01:05.093 D/Mono    (18934): Assembly Ref addref UnaPantalla[0x65bdaaa0] -> System.Threading.Tasks[0x670d2eb8]: 3
+02-03 11:01:05.093 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> MimeKit[0x65bd9be8]: 2
+02-03 11:01:05.103 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> MailKit[0x65bd8d70]: 2
+02-03 11:01:05.103 D/Mono    (18934): Assembly Ref addref MimeKit[0x65bd9be8] -> System[0x693026d8]: 12
+02-03 11:01:05.103 D/Mono    (18934): Assembly Ref addref MailKit[0x65bd8d70] -> System[0x693026d8]: 13
+02-03 11:01:05.113 D/Mono    (18934): Assembly Ref addref MailKit[0x65bd8d70] -> System.Core[0x6796ac08]: 7
+02-03 11:01:05.113 D/Mono    (18934): Assembly Ref addref MailKit[0x65bd8d70] -> MimeKit[0x65bd9be8]: 3
+02-03 11:01:05.113 D/Mono    (18934): Assembly Ref addref UnaPantalla.Droid[0x65bcef48] -> System.Core[0x6796ac08]: 8
+02-03 11:01:05.143 D/Mono    (18934): Image addref I18N[0x68815b70] -> I18N.dll[0x68845008]: 1
+02-03 11:01:05.143 D/Mono    (18934): Assembly I18N[0x68815b70] added to domain RootDomain, ref_count=1
+02-03 11:01:05.153 D/Mono    (18934): AOT module 'I18N.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.dll.so" not found
+02-03 11:01:05.153 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/I18N.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.dll.so" not found
+02-03 11:01:05.153 D/Mono    (18934): Unloading image data-0x68806278 [0x68820f80].
+02-03 11:01:05.153 D/Mono    (18934): Assembly Ref addref I18N[0x68815b70] -> mscorlib[0x60cc3f20]: 64
+Loaded assembly: I18N.dll [External]
+02-03 11:01:05.233 D/Mono    (18934): Image addref I18N.West[0x68821bb0] -> I18N.West.dll[0x6882c638]: 1
+02-03 11:01:05.233 D/Mono    (18934): Assembly I18N.West[0x68821bb0] added to domain RootDomain, ref_count=1
+02-03 11:01:05.243 D/Mono    (18934): AOT module 'I18N.West.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.West.dll.so" not found
+02-03 11:01:05.243 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/I18N.West.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.West.dll.so" not found
+02-03 11:01:05.243 D/Mono    (18934): Unloading image data-0x68822090 [0x6928f168].
+02-03 11:01:05.243 D/Mono    (18934): Assembly Ref addref I18N.West[0x68821bb0] -> I18N[0x68815b70]: 2
+02-03 11:01:05.243 D/Mono    (18934): Assembly Ref addref I18N.West[0x68821bb0] -> mscorlib[0x60cc3f20]: 65
+Loaded assembly: I18N.West.dll [External]
+02-03 11:01:05.263 D/Mono    (18934): Image addref I18N.CJK[0x688275e0] -> I18N.CJK.dll[0x688413f8]: 1
+02-03 11:01:05.263 D/Mono    (18934): Assembly I18N.CJK[0x688275e0] added to domain RootDomain, ref_count=1
+02-03 11:01:05.263 D/Mono    (18934): AOT module 'I18N.CJK.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.CJK.dll.so" not found
+02-03 11:01:05.263 D/Mono    (18934): AOT module '/Users/builder/data/lanes/2512/d3008455/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/I18N.CJK.dll.so' not found: dlopen failed: library "/data/app-lib/UnaPantalla.Droid-2/libaot-I18N.CJK.dll.so" not found
+02-03 11:01:05.263 D/Mono    (18934): Unloading image data-0x688171c8 [0x68841848].
+02-03 11:01:05.263 D/Mono    (18934): Assembly Ref addref I18N.CJK[0x688275e0] -> I18N[0x68815b70]: 3
+Loaded assembly: I18N.CJK.dll [External]
+02-03 11:01:05.263 D/Mono    (18934): Assembly Ref addref I18N.CJK[0x688275e0] -> mscorlib[0x60cc3f20]: 66
+02-03 11:01:05.323 D/Mono    (18934): Assembly Ref addref MimeKit[0x65bd9be8] -> System.Core[0x6796ac08]: 9
+02-03 11:01:05.403 D/Mono    (18934): DllImport attempting to load: '__Internal'.
+02-03 11:01:05.403 D/Mono    (18934): DllImport loaded library '(null)'.
+02-03 11:01:05.403 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:01:05.403 D/Mono    (18934): Searching for 'monodroid_get_system_property'.
+02-03 11:01:05.403 D/Mono    (18934): Probing 'monodroid_get_system_property'.
+02-03 11:01:05.403 D/Mono    (18934): Found as 'monodroid_get_system_property'.
+02-03 11:01:05.403 D/Mono    (18934): DllImport searching in: '__Internal' ('(null)').
+02-03 11:01:05.403 D/Mono    (18934): Searching for 'monodroid_free'.
+02-03 11:01:05.403 D/Mono    (18934): Probing 'monodroid_free'.
+02-03 11:01:05.403 D/Mono    (18934): Found as 'monodroid_free'.
+02-03 11:01:05.543 D/Mono    (18934): DllImport attempting to load: '/system/lib/libc.so'.
+02-03 11:01:05.543 D/Mono    (18934): DllImport loaded library '/system/lib/libc.so'.
+02-03 11:01:05.543 D/Mono    (18934): DllImport searching in: '/system/lib/libc.so' ('/system/lib/libc.so').
+02-03 11:01:05.543 D/Mono    (18934): Searching for 'gethostname'.
+02-03 11:01:05.543 D/Mono    (18934): Probing 'gethostname'.
+02-03 11:01:05.543 D/Mono    (18934): Found as 'gethostname'.
+Thread started: <Thread Pool> #6
+Thread started: <Thread Pool> #7
+Thread started: <Thread Pool> #8
+02-03 11:01:08.863 D/Mono    (18934): [0x69736418] worker starting
+02-03 11:01:08.863 D/Mono    (18934): [0x6971ea38] worker starting
+02-03 11:01:09.723 D/Mono    (18934): Unloading image System.dll [0x697e0a90].
+02-03 11:01:09.723 D/Mono    (18934): Image addref System[0x697ec708] -> System.dll[0x692d3670]: 4
+02-03 11:01:09.733 D/Mono    (18934): Unloading image System.dll [0x697be678].
+02-03 11:01:09.733 D/Mono    (18934): Image addref System[0x697f0b30] -> System.dll[0x692d3670]: 5
+02-03 11:01:09.903 D/Mono    (18934): Assembly Ref addref Mono.Android[0x67133848] -> System[0x693026d8]: 14
+An unhandled exception occured.
+
+02-03 11:01:22.253 D/Mono    (18934): DllImport attempting to load: '/system/lib/liblog.so'.
+02-03 11:01:22.253 D/Mono    (18934): DllImport loaded library '/system/lib/liblog.so'.
+02-03 11:01:22.253 D/Mono    (18934): DllImport searching in: '/system/lib/liblog.so' ('/system/lib/liblog.so').
+02-03 11:01:22.253 D/Mono    (18934): Searching for '__android_log_print'.
+02-03 11:01:22.253 D/Mono    (18934): Probing '__android_log_print'.
+02-03 11:01:22.253 D/Mono    (18934): Found as '__android_log_print'.
+02-03 11:01:22.273 I/MonoDroid(18934): UNHANDLED EXCEPTION:
+02-03 11:01:22.343 I/MonoDroid(18934): System.IO.IOException: The authentication or decryption has failed. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: Invalid certificate received from server. Error code: 0xffffffff800b010f
+02-03 11:01:22.343 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.RecordProtocol.EndReceiveRecord (IAsyncResult asyncResult) [0x0003a] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs:430 
+02-03 11:01:22.343 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.SslClientStream.SafeEndReceiveRecord (IAsyncResult ar, Boolean ignoreEmpty) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:285 
+02-03 11:01:22.343 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.SslClientStream.NegotiateAsyncWorker (IAsyncResult result) [0x00071] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:447 
+02-03 11:01:22.343 I/MonoDroid(18934):   --- End of inner exception stack trace ---
+02-03 11:01:22.343 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.SslClientStream.EndNegotiateHandshake (IAsyncResult result) [0x00035] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:425 
+02-03 11:01:22.343 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x0000c] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:99 
+02-03 11:01:22.343 I/MonoDroid(18934):   --- End of inner exception stack trace ---
+02-03 11:01:22.353 I/MonoDroid(18934):   at Mono.Security.Protocol.Tls.SslStreamBase.EndRead (IAsyncResult asyncResult) [0x00051] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:884 
+02-03 11:01:22.353 I/MonoDroid(18934):   at System.Net.Security.SslStream.EndAuthenticateAsClient (IAsyncResult asyncResult) [0x00011] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:531 
+02-03 11:01:22.353 I/MonoDroid(18934):   at System.Net.Security.SslStream.AuthenticateAsClient (System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:501 
+02-03 11:01:22.353 I/MonoDroid(18934):   at MailKit.Net.Smtp.SmtpClient.Connect (System.String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) [0x00265] in <filename unknown>:0 
+02-03 11:01:22.353 I/MonoDroid(18934): --- End of stack trace from previous location where exception was thrown ---
+02-03 11:01:22.353 I/MonoDroid(18934):   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Users/builder/data/lanes/2512/d3008455/source/mono/external/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143 
+02-03 11:01:22.353 I/MonoDroid(18934):   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<ThrowAsync>m__0 (System.Object state) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/external/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs:994 
+02-03 11:01:22.363 I/MonoDroid(18934):   at Android.App.SyncContext+<Post>c__AnonStorey0.<>m__0 () [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/monodroid/src/Mono.Android/src/Android.App/SyncContext.cs:18 
+02-03 11:01:22.363 I/MonoDroid(18934):   at Java.Lang.Thread+RunnableImplementor.Run () [0x0000b] in /Users/builder/data/lanes/2512/d3008455/source/monodroid/src/Mono.Android/src/Java.Lang/Thread.cs:36 
+02-03 11:01:22.363 I/MonoDroid(18934):   at Java.Lang.IRunnableInvoker.n_Run (IntPtr jnienv, IntPtr native__this) [0x00009] in /Users/builder/data/lanes/2512/d3008455/source/monodroid/src/Mono.Android/platforms/android-23/src/generated/Java.Lang.IRunnable.cs:71 
+02-03 11:01:22.363 I/MonoDroid(18934):   at (wrapper dynamic-method) System.Object:d2f1b64f-1490-4ff4-9ca0-eb5356ab0040 (intptr,intptr)
+An unhandled exception occured.
+
+02-03 11:01:24.393 E/mono    (18934): 
+02-03 11:01:24.393 E/mono    (18934): Unhandled Exception:
+02-03 11:01:24.393 E/mono    (18934): System.IO.IOException: The authentication or decryption has failed. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: Invalid certificate received from server. Error code: 0xffffffff800b010f
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.RecordProtocol.EndReceiveRecord (IAsyncResult asyncResult) [0x0003a] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs:430 
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.SslClientStream.SafeEndReceiveRecord (IAsyncResult ar, Boolean ignoreEmpty) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:285 
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.SslClientStream.NegotiateAsyncWorker (IAsyncResult result) [0x00071] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:447 
+02-03 11:01:24.393 E/mono    (18934):   --- End of inner exception stack trace ---
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.SslClientStream.EndNegotiateHandshake (IAsyncResult result) [0x00035] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:425 
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x0000c] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:99 
+02-03 11:01:24.393 E/mono    (18934):   --- End of inner exception stack trace ---
+02-03 11:01:24.393 E/mono    (18934):   at Mono.Security.Protocol.Tls.SslStreamBase.EndRead (IAsyncResult asyncResult) [0x00051] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:884 
+02-03 11:01:24.393 E/mono    (18934):   at System.Net.Security.SslStream.EndAuthenticateAsClient (IAsyncResult asyncResult) [0x00011] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:531 
+02-03 11:01:24.393 E/mono    (18934):   at System.Net.Security.SslStream.AuthenticateAsClient (System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:501 
+02-03 11:01:24.393 E/mono    (18934):   at MailKit.Net.Smtp.SmtpClient.Connect (System.String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) [0x00265] in <filename unknown>:0 
+02-03 11:01:24.393 E/mono    (18934): --- End of stack trace from previous location where exception was thrown ---
+02-03 11:01:24.393 E/mono    (18934):   at (wrapper dynamic-method) System.Object:d2f1b64f-1490-4ff4-9ca0-eb5356ab0040 (intptr,intptr)
+02-03 11:01:24.393 E/mono    (18934):   at (wrapper native-to-managed) System.Object:d2f1b64f-1490-4ff4-9ca0-eb5356ab0040 (intptr,intptr)
+02-03 11:01:24.393 E/mono-rt (18934): [ERROR] FATAL UNHANDLED EXCEPTION: System.IO.IOException: The authentication or decryption has failed. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: Invalid certificate received from server. Error code: 0xffffffff800b010f
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.RecordProtocol.EndReceiveRecord (IAsyncResult asyncResult) [0x0003a] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs:430 
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.SslClientStream.SafeEndReceiveRecord (IAsyncResult ar, Boolean ignoreEmpty) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:285 
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.SslClientStream.NegotiateAsyncWorker (IAsyncResult result) [0x00071] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:447 
+02-03 11:01:24.393 E/mono-rt (18934):   --- End of inner exception stack trace ---
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.SslClientStream.EndNegotiateHandshake (IAsyncResult result) [0x00035] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslClientStream.cs:425 
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x0000c] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:99 
+02-03 11:01:24.393 E/mono-rt (18934):   --- End of inner exception stack trace ---
+02-03 11:01:24.393 E/mono-rt (18934):   at Mono.Security.Protocol.Tls.SslStreamBase.EndRead (IAsyncResult asyncResult) [0x00051] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslStreamBase.cs:884 
+02-03 11:01:24.393 E/mono-rt (18934):   at System.Net.Security.SslStream.EndAuthenticateAsClient (IAsyncResult asyncResult) [0x00011] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:531 
+02-03 11:01:24.393 E/mono-rt (18934):   at System.Net.Security.SslStream.AuthenticateAsClient (System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation) [0x00000] in /Users/builder/data/lanes/2512/d3008455/source/mono/mcs/class/System/System.Net.Security/SslStream.cs:501 
+02-03 11:01:24.393 E/mono-rt (18934):   at MailKit.Net.Smtp.SmtpClient.Connect (System.String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) [0x00265] in <filename unknown>:0 
+02-03 11:01:24.393 E/mono-rt (18934): --- End of stack trace from previous location where exception was thrown ---
+02-03 11:01:24.393 E/mono-rt (18934):   at (wrapper dynamic-method) System.Object:d2f1b64f-1490-4ff4-9ca0-eb5356ab0040 (intptr,intptr)
+02-03 11:01:24.393 E/mono-rt (18934):   at (wrapper native-to-managed) System.Object:d2f1b64f-1490-4ff4-9ca0-eb5356ab0040 (intptr,intptr)
+In mgmain JNI_OnLoad
