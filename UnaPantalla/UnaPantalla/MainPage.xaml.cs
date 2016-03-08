@@ -22,7 +22,7 @@ namespace UnaPantalla
 
         async void EnviarMail(object sender, EventArgs e)
         {
-            /*var mail = new Uri("mailto:?to=tickets@msiccdev.uservoice.com&subject=this is the Subject&body=this is the Body");
+            /*var aamail = new Uri("mailto:?to=tickets@msiccdev.uservoice.com&subject=this is the Subject&body=this is the Body");
             await Launcher.LaunchUriAsync(mail);*/
             String a = "a";
             var email = DependencyService.Get<IEmail>();
